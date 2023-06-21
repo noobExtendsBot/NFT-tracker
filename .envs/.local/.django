@@ -1,0 +1,21 @@
+# General
+# ------------------------------------------------------------------------------
+USE_DOCKER=yes
+IPYTHONDIR=/app/.ipython
+# Redis
+# ------------------------------------------------------------------------------
+REDIS_URL=redis://redis:6379/0
+
+# Celery
+# ------------------------------------------------------------------------------
+
+# Flower
+CELERY_FLOWER_USER=YeerjOysWSUgMrwPGhmkqAmTLNhDqwvR
+CELERY_FLOWER_PASSWORD=kIxKgBUQxguGmw68sO9uaR4CWbyD5GsHgYegpgUqvFVsbh4wjHQWBc7b4YgK3zdF
+
+# Frontend Url
+FRONTEND_URL=http://localhost:3000
+
+# Twitter API
+TWITTER_API_BEARER_TOKEN = AAAAAAAAAAAAAAAAAAAAAGYNbAEAAAAAZZ%2F9b44pw0shx%2FLrY4%2F1jw5QtEE%3Dij1S5c7zjLVoXO8ui6A3yNQtYD2hVIQ3vy2C66yWOKpqDNUcXc
+
